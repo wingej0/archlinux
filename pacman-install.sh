@@ -1,3 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S pcmanfm firefox nitrogen unzip lxappearance-gtk3 neofetch rofi python-psutil ttf-roboto blueberry polkit-gnome gvfs gparted telegram-desktop code audacity kdenlive obs-studio gnome-keyring xf86-video-intel xfce4-appfinder htop flameshot ncdu bleachbit arandr strawberry galculator sxiv picom ttf-font-awesome arc-gtk-theme arc-icon-theme github-cli xfce4-notifyd gimp tumbler poppler-glib ffmpegthumbnailer libgsf totem evince gnome-epub-thumbnailer deja-dup playerctl pavucontrol system-config-printer dialog mtools dosfstools reflector bluez bluez-utils cups hplip xdg-user-dirs inetutils base-devel bash-completion
+sudo pacman -S pcmanfm firefox nitrogen engrampa lxappearance-gtk3 neofetch rofi python-psutil ttf-roboto blueberry polkit-gnome gvfs gparted telegram-desktop code audacity kdenlive obs-studio gnome-keyring xf86-video-intel htop flameshot ncdu bleachbit arandr strawberry galculator picom ttf-font-awesome arc-gtk-theme arc-icon-theme github-cli xfce4-notifyd gimp tumbler evince deja-dup playerctl pavucontrol system-config-printer reflector bluez bluez-utils cups hplip xdg-user-dirs blueman ristretto vlc webp-pixbuf-loader poppler-glib ffmpegthumbnailer freetype2 libgsf totem gnome-epub-thumbnailer firewalld
+sudo systemctl enable bluetooth
+sudo systemctl enable cups
+sudo systemctl enable firewalld
